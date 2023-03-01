@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+
+}
+
+.content{
+    height: 100%;
+    margin-left: 200px;
+    width: calc(100vw - 200px);
+
+}
+
+
+section{
+    height: 100%;
+    color: white;
+}
+
+
+aside{
+    background-color: blue;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+   
+}
+
+section#home{
+    background-color: brown;
+}
+
+section#about{
+    background-color: aqua;
+}
+
+section#service{
+    background-color: black;
+    color: white;
+}
+
+section#client{
+    background-color: peru;
+}
+
+section#blog{
+    background-color: orangered;
+}
+
+section#contact{
+    background-color: green;
+}
+
+
+@media screen and (max-width:768px) {
+    .container{
+        flex-direction: column;
+        
+    }
+    aside{
+        height: 50px;
+        width: 100%;
+    }
+
+    .content{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    
+}
