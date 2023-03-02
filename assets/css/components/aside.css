@@ -1,0 +1,85 @@
+.container-fluid aside{
+    background-color: white;
+    height: 100%;
+}
+
+.profile img{
+    width: 150px;
+    border-radius: 50%;
+}
+.profile h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.profile i{
+    display: none;
+}
+
+.profile #job{
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.menu ul li {
+    padding: 10px 0;
+    border-top: 0.1px solid #e0e0e0;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+.menu ul li:last-child{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.menu ul li:hover{
+    background-color: #f0eded;
+    border-right: 4px solid goldenrod;
+}
+
+.menu ul li a:hover{
+    padding: 10px 0;
+}
+
+
+.social-icon a i{
+    font-size: 2rem;
+    color: gray;
+    padding: 5px 5px;
+}
+
+@media screen and (max-width:992px) {
+    .profile h3,#job{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    .profile #job,.profile img,.menu,.social-icon{
+        display: none;
+    }
+
+    .profile{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px;
+    }
+
+    .profile h3{
+        margin: 0;
+    }
+
+    .profile i{
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    
+    
+}

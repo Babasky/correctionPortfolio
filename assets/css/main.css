@@ -1,0 +1,13 @@
+@import url("framework/utiles.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+@import url("components/aside.css");
+@import url("components/content.css");
+@import url("components/home.css");
+@import url("components/about.css");
+@import url("components/resume.css");
+@import url("components/portfolio.css");
+@import url("icones/icones.css");
+@import url("components/blog.css");
+@import url("components/contact.css");
+@import url("style.css");
