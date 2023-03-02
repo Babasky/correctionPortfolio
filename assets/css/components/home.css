@@ -1,0 +1,80 @@
+.content section#home{
+    background-image: url('../../../assets/images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    color: white;
+}
+
+
+.content section#home .info{
+    padding: 200px 0 0 0;
+}
+
+.content section#home .info h1{
+    margin-bottom: 10px;
+}
+
+.content section#home .info p{
+    font-size: 16px;
+    color: #ccc;
+}
+
+.content section#home .coordonnee{
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.content section#home .coordonnee ul li{
+    text-decoration: underline 2px goldenrod;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.content section#home .coordonnee .coordonnee-details ul{
+    margin-left: 20px;
+    text-align: justify;
+}
+
+
+.content section#home .coordonnee .coordonnee-details ul li{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:992px) {
+    .content section#home .coordonnee{
+        margin-left: 190px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content section#home .coordonnee{
+        margin-left: 170px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .content section#home .coordonnee{
+        margin-left: 100px;
+    }
+}
+
+
+@media screen and (max-width:427px) {
+    .content section#home .info h1{
+        font-size: 1.5rem;
+    }
+
+    .content section#home .coordonnee{
+        margin-left: 80px;
+    }
+
+    .content section#home .coordonnee ul li{
+        font-size: 0.5rem;
+        font-weight: bold;
+    }
+}

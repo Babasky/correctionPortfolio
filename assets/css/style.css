@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-.container{
+.app-container{
     display: flex;
     height: 100vh;
 
@@ -33,9 +33,7 @@ aside{
    
 }
 
-section#home{
-    background-color: brown;
-}
+
 
 section#about{
     background-color: aqua;
@@ -60,7 +58,7 @@ section#contact{
 
 
 @media screen and (max-width:768px) {
-    .container{
+    .app-container{
         flex-direction: column;
         
     }
