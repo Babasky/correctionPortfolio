@@ -84,13 +84,14 @@ section div.items{
     justify-content: space-between;
 }*/
 
+.aside{
+    margin: 20px 0;
+}
 
 aside{
     background-color: white;
     width: 200px;
     position: fixed;
-    top: 0;
-    left: 0;
     height: 100%;
    
 }
