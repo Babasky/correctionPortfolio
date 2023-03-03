@@ -251,7 +251,7 @@ section#about .facts-items h2{
     }
 
     section#about .facts-list .facts-items{
-        width: 400px;
+        width: 500px;
         margin: 0 auto;
     }
 
@@ -299,7 +299,7 @@ section#about .facts-items h2{
     }
 
     section#about .facts-list .facts-items{
-        width: 300px;
+        width: 95%;
     }
 
     section#about .services-list .services-list-item{
@@ -408,10 +408,10 @@ section#about .facts-items h2{
 
     section#about .fun-facts{
         width: 300px;
-        padding: 0 30px;
-    }
+   }
 
     section#about .facts-list .facts-items{
         width: 90%;
+        margin: 0 auto;
     }
 }

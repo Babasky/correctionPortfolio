@@ -36,6 +36,8 @@ section#resume .course{
 
 section#resume .course h6{
     margin-bottom: 0;
+    text-align: justify;
+
 }
 
 section#resume .course p{
@@ -79,7 +81,7 @@ section#resume .experience-details{
 
 section#resume .experience-details h6{
     margin-bottom: 0;
-    margin-right: 10px;
+    text-align: justify;
 }
 
 section#resume .experience-details p{

@@ -20,25 +20,6 @@ section .section-content{
     padding: 0 30px;
 }
 
-
-
-
-#resume{
-    background-color: purple;
-}
-
-#portfolio{
-    background-color: black;
-}
-
-#blog{
-    background-color: brown;
-}
-
-#contact{
-    background-color: blueviolet;
-}
-
 section{
    padding: 10px;
   box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
