@@ -17,6 +17,31 @@ body{
 }
 
 section{
+    height: 100%;
+    color: white;
+}
+
+#about{
+    background-color: blue;
+}
+
+#resume{
+    background-color: purple;
+}
+
+#portfolio{
+    background-color: black;
+}
+
+#blog{
+    background-color: brown;
+}
+
+#contact{
+    background-color: blueviolet;
+}
+
+/*section{
    padding: 10px;
   box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
 
@@ -57,7 +82,7 @@ section div.title p{
 section div.items{
     display: flex;
     justify-content: space-between;
-}
+}*/
 
 
 aside{
