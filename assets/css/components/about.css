@@ -1,0 +1,417 @@
+section#about{
+    border-right: 4px solid #ccc;
+}
+
+
+section#about .about-job p{
+    color: gray;
+}
+
+section#about .container-presentation .presentation,section#about .container-presentation .testimonials{
+    text-align: justify;
+}
+
+section#about .container-presentation .presentation h4{
+    margin-bottom: 10px;
+}
+
+section#about .container-presentation .presentation p{
+    width: 400px;
+}
+
+
+section#about .container-presentation .testimonials h4{
+    text-decoration: underline 4px goldenrod;
+    margin-bottom: 0px;
+}
+
+section#about .container-presentation .testimonials .testimonials-description p{
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background-color: lightcyan;
+    margin-left: 30px;
+    width: 400px;
+    padding: 20px 30px;
+}
+
+
+section#about .container-presentation .testimonials .testimonial-image img{
+    width: 70px;
+    top: 130px;
+    left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+}
+
+section#about .container-presentation .testimonials .testimonial-author h6{
+    margin-bottom: 0;
+}
+section#about .container-presentation .testimonials .testimonial-author p{
+    color: gray;
+    margin-top: 0;
+}
+section#about .container-presentation .testimonials .defilement i{
+    font-size: 1.2rem;
+    border: 0.1px solid #ccc;
+    background-color: rgb(240, 238, 238);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+section#about .service-title h4{
+    text-align: justify;
+    text-decoration: underline 3px goldenrod;
+}
+
+section#about .services-list-item{
+    text-align: center;
+}
+
+/*section#about .services-list-item p{
+    text-align: left;
+}*/
+
+section#about .services-list-item h6{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+section#about .services-list-item i{
+    font-size: 2.5rem;
+}
+
+
+section#about .clients-title h4{
+    text-align: justify;
+    text-decoration: underline 3px goldenrod;
+}
+
+section#about .clients-logo img{
+    width: 130px;
+}
+
+section#about .facts-title h4{
+    text-align: justify;
+    text-decoration: underline 3px goldenrod;
+}
+
+section#about .facts-items{
+    box-shadow: 4px 12px 16px rgba(0, 0, 0, 0.2);
+    background-color: #fcfbfb;
+    padding: 30px 20px;
+}
+
+section#about .facts-items i{
+    font-size: 2rem;
+    color: #1d1d1d;
+}
+
+section#about .facts-items h5{
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+section#about .facts-items h2{
+    color: goldenrod;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+/**********************************MEDIA QUERIES********************************************/
+
+@media screen and (min-width:1500px) {
+    section#about .about-title h2{
+        padding-left: 200px;
+    }
+    section#about .container-presentation{
+        margin-left: 130px;
+    }
+
+
+    section#about .container-presentation .testimonials .testimonials-description p{
+        width: 35vw;
+    }
+
+    section#about .container-presentation .testimonials .testimonial-image img{
+        top: 100px;
+    }
+
+    section#about .services,section#about .clients,section#about .fun-facts{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    
+
+
+}
+
+
+@media screen and (max-width:1200px) {
+    section#about .about-title h2{
+        padding-left: 20px;
+    }
+    
+    
+    section#about .container-presentation{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    section#about .container-presentation .testimonials .testimonials-description p{
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 250px;
+    }
+    section#about .container-presentation .testimonials .testimonial-image img{
+        left: -20px;
+    }
+
+    section#about .container-presentation .testimonials .testimonial-author{
+        margin-left: 70px;
+    }
+
+    section#about .container-presentation .testimonials .testimonial-author h6{
+        margin-bottom: 5px;
+    }
+
+    section#about .container-presentation .testimonials .testimonial-author p{
+        margin-top: 0;
+    }
+
+    section#about .services{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    section#about .clients-logo{
+        flex-wrap: wrap;
+    }
+
+    section#about .container-presentation{
+        flex-direction: column;
+        padding-left: 50px;
+    }
+
+
+    section#about .container-presentation .presentation p{
+        width: 80%;
+    }
+
+    section#about .container-presentation .testimonials{
+        padding: 0 20px;
+    }
+
+    section#about .container-presentation .testimonials .testimonials-description p{
+        width: 80%;
+    }
+
+    section#about .container-presentation .testimonials .testimonial-image img{
+        top: 160px;
+        left: 10px;
+        width: 70px;
+    }
+
+    section#about .container-presentation .testimonials .defilement{
+        margin-right: 70px
+    }
+
+
+    section#about .services .service-title h4{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    section#about .services-list{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    section#about .services-list .services-list-item p{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    section#about .clients-title h4{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    section#about .facts-title h4{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    section#about .facts-list .facts-items{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .content .container-presentation{
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    section#about .container-presentation .presentation{
+        text-align: center;
+    }
+
+    section#about .container-presentation .presentation p{
+        margin: 0 20px;
+        width: 90%;
+    }
+
+    section#about .container-presentation .testimonials .testimonials-description h4{
+        text-align: center;
+    }
+
+    section#about .container-presentation .testimonials .testimonials-description p{
+        margin: 20px auto;
+        width: 80%;
+    }
+
+
+
+    section#about .services .service-title h4{
+        text-align: center;
+    }
+
+    section#about .fun-facts{
+        margin: 0 auto;
+    }
+
+    section#about .facts-list .facts-items{
+        width: 300px;
+    }
+
+    section#about .services-list .services-list-item{
+        width: 100%;
+    }
+
+    section#about .fun-facts,section#about .clients{
+        padding: 0 30px;
+    }
+
+
+    section#about .container-presentation .testimonials .testimonial-image img{
+        left: 0;
+        top: 150px;
+    }
+
+    section#about .container-presentation .testimonials .defilement{
+        margin-right: 40px;
+    }
+    
+
+    section#about .container-presentation .testimonials .testimonial-author{
+        margin-left: 95px;
+    }
+
+    section#about .clients-title h4{
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    section#about .clients-logo{
+        justify-content: center;
+    }
+
+    section#about .clients-logo img{
+        width: 250px;
+    }
+
+    section#about .facts-title h4{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    @media screen and (max-width:576px) {
+        section#about .container-presentation .testimonials .defilement{
+            margin-right: 15px;
+        }   
+    }
+
+
+    @media screen and (max-width:427px) {
+
+        section#about .container-presentation{
+            width: 300px;
+            padding: 0 30px;
+        }
+
+        section#about .container-presentation .testimonials .testimonials-description p{
+            width: 180px;
+            margin-bottom: 5px;
+        }
+
+
+        section#about .container-presentation .testimonials .defilement{
+            margin-left: 12px;
+        }
+        section#about .container-presentation .testimonials .defilement i{
+            font-size: 0.5rem;
+        }
+        section#about .container-presentation .testimonials .testimonial-image img{
+            width: 40px;
+            left: 60px;
+            top: 310px;
+        }
+        section#about .container-presentation .testimonials .testimonial-author h6{
+            font-size: 0.8rem;
+        }
+
+        section#about .clients{
+            width: 300px;
+            padding: 0 30px;
+        }
+
+        section#about .clients-logo{
+            width: 100px;
+            margin: 0 auto;
+        }
+
+        section#about .services{
+            padding: 0 30px;
+        }
+
+        section#about .services-list p{
+            text-align: center;
+        }
+
+        section#about .services-list .services-list-item{
+            width: 300px;
+        }
+
+        section#about h4{
+            font-size: 1rem;
+        }
+    }
+
+    section#about .fun-facts{
+        width: 300px;
+        padding: 0 30px;
+    }
+
+    section#about .facts-list .facts-items{
+        width: 90%;
+    }
+}

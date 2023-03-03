@@ -1,0 +1,127 @@
+
+section#contact .contact-item h5{
+    text-decoration: underline 2px goldenrod;
+    text-align: justify;
+}
+
+section#contact .contact-item .get{
+    text-align: justify;
+    width: 500px;
+}
+
+section#contact .contact-item .contact-form{
+    width: 500px;
+}
+
+section#contact .contact-item .get ul li{
+    margin-bottom: 20px;
+}
+
+section#contact .contact-item .get ul li i{
+    margin-right: 25px;
+}
+
+section#contact .contact-item .contact-form input{
+    height: 20px;
+    padding: 10px 10px;
+    width: 90%;
+    margin-bottom: 20px;
+    border: 0.1px solid gray;
+    outline: none;
+}
+
+section#contact .contact-item .full-name i ,section#contact .contact-item .email-form i{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    color: gray;
+}
+section#contact .contact-item .message textarea{
+    padding: 10px 10px;
+    width: 90%;
+    outline: none;
+    resize: none;
+}
+section#contact .contact-item .message i{
+    right: 40px;
+    top: 10px;
+    color: gray;
+}
+
+.recaptcha{
+    margin-top:10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #efefef;
+    height: 90px;
+}
+
+.recaptcha input{
+    height: 20px;
+    width: 20px;
+}
+
+.check{
+    margin-top: 30px;
+}
+
+.check .robot{
+    margin-top: 5px;
+}
+
+
+.recap-image img{
+    width: 100px;
+}
+
+.recap-image p{
+    margin-top: -10px;
+}
+
+section#contact .contact-item .contact-form button{
+    margin-top: 10px;
+    float: left;
+    border: 2px solid goldenrod;
+    text-transform: none;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:992px) {
+    section#contact .contact-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    section#contact .contact-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#contact .contact-item h5{
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width:427px) {
+    section#contact .contact-container{
+        width: 400px;
+        padding: 30px;
+    }
+    section#contact .contact-item{
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 30px;
+    }
+
+    section#contact .contact-item p{
+        font-size: 12px;
+    }
+}
+
+

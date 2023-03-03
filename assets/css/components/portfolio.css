@@ -1,0 +1,41 @@
+section#portfolio .portfolio-container .portfolio-nav a{
+    margin: 0;
+    text-transform: capitalize;
+    border: none;
+    font-size: 0.9rem;
+}
+section#portfolio .portfolio-container .portfolio-nav a:hover{
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+}
+
+
+section#portfolio .portfolio-container .portfolio-image img{
+    width: 300px;
+}
+
+
+@media screen and (max-width:768px) {
+    section#portfolio .portfolio-container .portfolio-image img{
+        width: 100%;
+    }
+    section#portfolio .portfolio-container .portfolio-nav a{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:427px) {
+    section#portfolio .portfolio-container .portfolio-nav a{
+        font-size: 0.5rem;
+    }
+
+    section#portfolio .portfolio-container{
+        padding: 0 30px;
+    }
+
+    section#portfolio .portfolio-container .portfolio-image img{
+        width: 300px;
+    }
+}

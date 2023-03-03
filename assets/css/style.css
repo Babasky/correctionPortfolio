@@ -16,10 +16,47 @@ body{
 
 }
 
-
 section{
-    height: 100%;
+   padding: 10px;
+  box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+section div.title{
+    display: flex;
+}
+
+
+section div.title h2{
+    background-color: goldenrod;
+    display: inline-block;
     color: white;
+    font-size: 1.2rem;
+    padding: 10px 50px;
+    position: relative;
+}
+
+
+section div.title h2::after{
+    background-color: goldenrod;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 5px solid goldenrod;
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
+}
+
+section div.title p{
+    color: gray;
+    margin-left: 10px;
+}
+
+
+section div.items{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -35,35 +72,14 @@ aside{
 
 
 
-section#about{
-    background-color: aqua;
-}
-
-section#service{
-    background-color: black;
-    color: white;
-}
-
-section#client{
-    background-color: peru;
-}
-
-section#blog{
-    background-color: orangered;
-}
-
-section#contact{
-    background-color: green;
-}
-
-
 @media screen and (max-width:768px) {
     .app-container{
         flex-direction: column;
         
     }
     aside{
-        height: 50px;
+        height: 40px;
+        padding-top: 10px;
         width: 100%;
     }
 
